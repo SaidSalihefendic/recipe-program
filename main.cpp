@@ -13,6 +13,8 @@ int main()
     ofstream Ispis;
 
     dodaj(Ispis); //za unos sa stojaka u frizider
+    
+    system("pause");
 
     return 0;
 }
