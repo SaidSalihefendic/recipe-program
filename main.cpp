@@ -13,8 +13,6 @@ int main()
     ofstream Ispis;
 
     dodaj(Ispis); //za unos sa stojaka u frizider
-    
-    system("pause");
 
     return 0;
 }
@@ -22,7 +20,7 @@ int main()
 void dodaj(ofstream& Ispis)
 {
     //Funkcija koja preuzima unos od korisnika za sadrzaj frizidera nakon kupovine TREBA SKONTATI KOLICINU DA SE UNESE
-    Ispis.open("frizider.txt");
+    Ispis.open("Frizider/frizider.txt");
 
     string sastojak("Ovdje neki sastojak");
 
